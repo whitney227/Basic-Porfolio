@@ -1,0 +1,48 @@
+/**CSS Styles for Index html**/
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 960;
+    margin: 0 auto;
+    background-color: white;
+   
+}
+
+.namebox{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1 {
+    position: relative;
+    color: #972984;
+    background-color:#80808061;
+    width: 312px;
+    height: 15%;
+    border: #972984;
+    padding: 25px;
+
+}
+
+.AboutMe {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#me {
+    width: 312px;
+    height: auto;
+    float: left
+}
+
+p{
+    padding: 20px;
+    line-height: 24px;
+
+}
+
+
+
+
