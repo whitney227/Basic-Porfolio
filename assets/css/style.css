@@ -9,22 +9,33 @@ body {
     
 }
 
-.namebox{
+.namebox {
     width: 960px;
     margin: 0 auto;
+    padding: 10px;
     overflow: hidden;
-    
+    border: 10px double black;
+    background-color: #80808061;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    position: relative;
-    color: #972984;
-    background-color:#80808061;
-    width: 312px;
-    height: 15%;
-    border: 10px double black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    float: left;
+    color: #972984;  
+}
+
+.navmenu ul{ 
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+.navmenu li {
+    display: inline-block;
+    color: black;
+    padding: 25px 20px;
 }
 
 h2 {
@@ -34,10 +45,10 @@ h2 {
     overflow: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    padding: 0px;
+    margin-top: 5%;
     border: 5px double black;
     text-align: center;
-    margin-left: 50%;
+    margin-left: 20%;
 }
 
 aside { 
