@@ -2,11 +2,11 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     width: 960;
     margin: 0 auto;
-    background-color: white;
-   
+    
 }
 
 .namebox{
