@@ -27,27 +27,34 @@ h1 {
     text-align: center;
 }
 
-.AboutMe {
+h2 {
     width: 960px;
     margin: 0 auto;
     overflow: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
     font-size: 25px;
 }
-#me {
-    width: 312px;
-    height: auto;
-    float: left
+
+#content {
+    width: 960px;
+    margin-left: auto;
+    overflow: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
 
-.content {
-    content: 
-    padding: 20px;
+aside { 
+    float: left;
+    width: 312px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.bio {
+    content: 700 x 400;
+    padding: 40px 40px 40px 40px;
     border-width: 30px;
-    margin: 10px 30px 10px 30px;
+    margin-left: 30px;
     line-height: 24px;
     font-size: 18px;
 }
