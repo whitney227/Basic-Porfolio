@@ -24,7 +24,7 @@ h1 {
     color: #972984;  
 }
 
-.navmenu ul{ 
+.navmenu ul { 
     list-style-type: none;
     margin: 0;
     font-size: 20px;
@@ -32,9 +32,16 @@ h1 {
     float: right;
 }
 
+.navmenu ul a:active {
+    color: #972984;
+}
+
+.navmenu ul a:visited {
+    color: black;
+}
+
 .navmenu li {
     display: inline-block;
-    color: black;
     padding: 25px 20px;
 }
 
