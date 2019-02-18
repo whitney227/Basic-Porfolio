@@ -23,13 +23,19 @@ h1 {
     height: 15%;
     border: #972984;
     padding: 25px;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .AboutMe {
     width: 960px;
     margin: 0 auto;
     overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 25px;
 }
 #me {
     width: 312px;
@@ -37,10 +43,13 @@ h1 {
     float: left
 }
 
-p{
+.content {
+    content: 
     padding: 20px;
+    border-width: 30px;
+    margin: 10px 30px 10px 30px;
     line-height: 24px;
-
+    font-size: 18px;
 }
 
 
