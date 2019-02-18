@@ -32,12 +32,10 @@ h1 {
     float: right;
 }
 
-.navmenu ul a:active {
-    color: #972984;
-}
-
-.navmenu ul a:visited {
+.navmenu ul a {
+    background-color: #cd49b7;
     color: black;
+    text-decoration: underline;
 }
 
 .navmenu li {
