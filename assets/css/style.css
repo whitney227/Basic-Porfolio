@@ -13,6 +13,7 @@ body {
     width: 960px;
     margin: 0 auto;
     overflow: hidden;
+    
 }
 
 h1 {
@@ -21,43 +22,72 @@ h1 {
     background-color:#80808061;
     width: 312px;
     height: 15%;
-    border: #972984;
-    padding: 25px;
+    border: 10px double black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 h2 {
-    width: 960px;
-    margin: 0 auto;
-    overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-}
-
-#content {
-    width: 960px;
-    margin-left: auto;
+    width: 200px;
+    background-color:#80808061;
+    color: #972984;
     overflow: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
+    padding: 0px;
+    border: 5px double black;
+    text-align: center;
+    margin-left: 50%;
 }
 
 aside { 
-    float: left;
-    width: 312px;
-    height: auto;
-    margin-right: 30px;
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 75px;
+}
+
+#me {
+    float: left
 }
 
 .bio {
-    content: 700 x 400;
-    padding: 40px 40px 40px 40px;
-    border-width: 30px;
-    margin-left: 30px;
     line-height: 24px;
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 46px 30px;
+    border: 15px;  
+    color: #747474;
+    font-weight: bold;
 }
+
+p {
+    padding-left: 35%;
+    text-align: justify;
+}
+
+.footer {
+    color: #972984;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border: 10px double black;
+    background-color:#80808061;
+    max-height: 20%;
+    min-width: fit-content; 
+}
+
+h3 {
+    text-align-last: center;
+}
+
+
+
+
+
 
 
 
