@@ -125,6 +125,22 @@ h3 {
     padding-bottom: 30px;
 }
 
+/**CSS Styling for Contact html**/
+
+.contacttitle {
+    width: 200px;
+    background-color:#80808061;
+    color: #972984;
+    overflow: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    border: 5px double black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
 
 
 
