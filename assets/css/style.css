@@ -100,6 +100,28 @@ h3 {
     text-align-last: center;
 }
 
+/**CSS Styling for Contact html**/
+
+.portfolio-content {
+    display: block;
+    padding: 30px;
+    width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 75px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.portfolio-pic {
+    float: left;
+    width: 45%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
 
 
 
