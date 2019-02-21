@@ -99,7 +99,7 @@ h3 {
     text-align-last: center;
 }
 
-/**CSS Styling for Contact html**/
+/**CSS Styling for Portfolio html**/
 
 #contenttitle {
     margin: 0 auto;
@@ -127,7 +127,12 @@ h3 {
 
 /**CSS Styling for Contact html**/
 
-.contacttitle {
+body {
+    display: block;
+    width: 100%;
+}
+
+#contacttitle {
     width: 200px;
     background-color:#80808061;
     color: #972984;
@@ -138,6 +143,66 @@ h3 {
     text-align: center;
     margin: 0 auto;
 }
+
+.formcontent {
+    display: block;
+    width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    
+    width: 1018px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-bottom: 75px;  
+    line-height: 24px;
+    font-size: 18px;
+    margin: 0 auto;
+    border: 15px;
+    color: #747474;
+    font-weight: bold;
+    line-height: 1;
+    resize: vertical:
+}
+
+label {
+    cursor: default;
+    width: 960px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=text], select, textarea {
+    width: 960px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    resize: vertical;
+    padding: 12px 20px;
+    border: double black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: #80808061;
+    color: #972984;
+    padding: 12px 33px;
+    border: 5px double black;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+
 
 
 
